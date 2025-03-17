@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "title": "Wavve",
+    "description": "Mobile application for creating and joining events where hosts can monetize by organizing billed parties.",
+    "tags": ["Firebase", "TypeScript", "Nest.js", "Stripe", "Next.js"],
+    "image": "/wavve.png",
+    "websiteUrl": "https://wavve.party",
+    "githubUrl": "https://github.com/wavve-global"
+  },
+  {
+    "id": 2,
+    "title": "GlowPay",
+    "description": "A comprehensive itemshop solution for Minecraft servers that provides easy integration and free website hosting for server owners. Part of FVST Collective.",
+    "tags": ["TypeScript", "Next.js", "Minecraft API", "Stripe"],
+    "image": "/glowpay.png",
+    "websiteUrl": "https://glowpay.pl",
+    "githubUrl": "https://github.com/fvstpl/"
+  },
+  {
+    "id": 3,
+    "title": "hostzone (private)",
+    "description": "A modern rework of the Pterodactyl panel built with React and Next.js, fetching and displaying server data from the Pterodactyl API.",
+    "tags": ["React", "Next.js", "TypeScript", "Pterodactyl API"],
+    "image": "/hostzone.png",
+    "githubUrl": "https://github.com/hostzone"
+  },
+  {
+    "id": 4,
+    "title": "alienMusic",
+    "description": "Discord music bot ranked #3 in Poland, providing high-quality music streaming for Discord servers.",
+    "tags": ["Discord.js", "TypeScript", "Node.js", "Lavalink"],
+    "image": "/alien.png",
+    "websiteUrl": "https://alienmusic.pl",
+    "githubUrl": "https://github.com/alienchunk"
+  },
+  {
+    "id": 5,
+    "title": "FVST Collective",
+    "description": "A collection of smaller application-like projects without a general website, bringing together various development initiatives under one umbrella.",
+    "tags": ["TypeScript", "Next.js", "React", "Node.js"],
+    "image": "/white-background.png",
+    "githubUrl": "https://github.com/fvstpl"
+  },
+  {
+    "id": 6,
+        "title": "Rean Bot",
+    "description": "Private Discord bot with whitelist functionality, providing exclusive features for authorized servers only.",
+    "tags": ["Discord.js", "TypeScript", "Node.js"],
+    "githubUrl": "https://github.com/reanlove"
+  }
+] 
