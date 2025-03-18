@@ -160,56 +160,56 @@ export default function Portfolio() {
 
           {/* Right Column - Contact Info */}
           <motion.div
-            className="bg-muted/50 p-8 rounded-lg space-y-6 mx-auto md:mx-0 w-full"
+            className="bg-muted/50 p-4 sm:p-8 rounded-lg space-y-4 sm:space-y-6 mx-auto md:mx-0 w-full"
             initial={{ opacity: 0, x: 20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.3 }}
           >
-            <h2 className="text-2xl font-bold mb-6">Contact Details</h2>
+            <h2 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6">Contact Details</h2>
 
-            <motion.div className="space-y-4" variants={staggerContainer} initial="hidden" animate="visible">
-              <motion.div className="flex items-center gap-3 bg-background/80 p-3 rounded-md" variants={fadeIn}>
-                <EnvelopeSimple className="h-5 w-5 text-primary flex-shrink-0" weight="fill" />
-                <div className="flex flex-col sm:flex-row sm:items-center">
-                  <span className="text-muted-foreground">milosz.strzalkowski25@gmail.com</span>
-                  <span className="mt-1 sm:mt-0 sm:ml-2 text-xs px-1.5 py-0.5 bg-muted rounded-full text-muted-foreground inline-block w-fit">personal</span>
+            <motion.div className="space-y-3 sm:space-y-4" variants={staggerContainer} initial="hidden" animate="visible">
+              <motion.div className="flex items-center gap-2 sm:gap-3 bg-background/80 p-2 sm:p-3 rounded-md" variants={fadeIn}>
+                <EnvelopeSimple className="h-4 w-4 sm:h-5 sm:w-5 text-primary flex-shrink-0" weight="fill" />
+                <div className="flex flex-col w-full">
+                  <span className="text-xs sm:text-sm text-muted-foreground truncate">milosz.strzalkowski25@gmail.com</span>
+                  <span className="text-xs px-1.5 py-0.5 bg-muted rounded-full text-muted-foreground inline-block w-fit mt-1">personal</span>
                 </div>
               </motion.div>
 
-              <motion.div className="flex items-center gap-3 bg-background/80 p-3 rounded-md" variants={fadeIn}>
-                <EnvelopeSimple className="h-5 w-5 text-primary flex-shrink-0" weight="fill" />
-                <div className="flex flex-col sm:flex-row sm:items-center">
-                  <span className="text-muted-foreground">touch@strzala.lol</span>
-                  <span className="mt-1 sm:mt-0 sm:ml-2 text-xs px-1.5 py-0.5 bg-primary/20 rounded-full text-primary inline-block w-fit">work</span>
+              <motion.div className="flex items-center gap-2 sm:gap-3 bg-background/80 p-2 sm:p-3 rounded-md" variants={fadeIn}>
+                <EnvelopeSimple className="h-4 w-4 sm:h-5 sm:w-5 text-primary flex-shrink-0" weight="fill" />
+                <div className="flex flex-col w-full">
+                  <span className="text-xs sm:text-sm text-muted-foreground">touch@strzala.lol</span>
+                  <span className="text-xs px-1.5 py-0.5 bg-primary/20 rounded-full text-primary inline-block w-fit mt-1">work</span>
                 </div>
               </motion.div>
 
-              <motion.div className="flex items-center gap-3 bg-background/80 p-3 rounded-md" variants={fadeIn}>
-                <Phone className="h-5 w-5 text-primary flex-shrink-0" weight="fill" />
-                <span className="text-muted-foreground">+48 517 663 952</span>
+              <motion.div className="flex items-center gap-2 sm:gap-3 bg-background/80 p-2 sm:p-3 rounded-md" variants={fadeIn}>
+                <Phone className="h-4 w-4 sm:h-5 sm:w-5 text-primary flex-shrink-0" weight="fill" />
+                <span className="text-xs sm:text-sm text-muted-foreground">+48 517 663 952</span>
               </motion.div>
 
-              <motion.div className="flex items-center gap-3 bg-background/80 p-3 rounded-md" variants={fadeIn}>
-                <MapPin className="h-5 w-5 text-primary flex-shrink-0" weight="fill" />
-                <span className="text-muted-foreground">Lodz, Poland</span>
+              <motion.div className="flex items-center gap-2 sm:gap-3 bg-background/80 p-2 sm:p-3 rounded-md" variants={fadeIn}>
+                <MapPin className="h-4 w-4 sm:h-5 sm:w-5 text-primary flex-shrink-0" weight="fill" />
+                <span className="text-xs sm:text-sm text-muted-foreground">Lodz, Poland</span>
               </motion.div>
 
-              <motion.div className="flex items-center gap-3 pt-4 justify-center md:justify-start" variants={fadeIn}>
-                <Button variant="outline" size="icon" asChild className="rounded-full h-10 w-10">
+              <motion.div className="flex items-center gap-2 pt-2 sm:pt-4 justify-center md:justify-start" variants={fadeIn}>
+                <Button variant="outline" size="icon" asChild className="rounded-full h-8 w-8 sm:h-10 sm:w-10">
                   <Link href="https://github.com/doniczek" target="_blank">
-                    <GithubLogo className="h-5 w-5" weight="fill" />
+                    <GithubLogo className="h-4 w-4 sm:h-5 sm:w-5" weight="fill" />
                     <span className="sr-only">GitHub</span>
                   </Link>
                 </Button>
-                <Button variant="outline" size="icon" asChild className="rounded-full h-10 w-10">
-                  <Link href="https://linkedin.com" target="_blank">
-                    <LinkedinLogo className="h-5 w-5" weight="fill" />
+                <Button variant="outline" size="icon" asChild className="rounded-full h-8 w-8 sm:h-10 sm:w-10">
+                  <Link href="https://linkedin.com/in/doniczka-undefined-a58189229" target="_blank">
+                    <LinkedinLogo className="h-4 w-4 sm:h-5 sm:w-5" weight="fill" />
                     <span className="sr-only">LinkedIn</span>
                   </Link>
                 </Button>
-                <Button variant="outline" size="icon" asChild className="rounded-full h-10 w-10">
+                <Button variant="outline" size="icon" asChild className="rounded-full h-8 w-8 sm:h-10 sm:w-10">
                   <Link href="https://discord.com/users/485414045516562443" target="_blank">
-                    <DiscordLogo className="h-5 w-5" weight="fill" />
+                    <DiscordLogo className="h-4 w-4 sm:h-5 sm:w-5" weight="fill" />
                     <span className="sr-only">Discord</span>
                   </Link>
                 </Button>
@@ -320,11 +320,8 @@ export default function Portfolio() {
           >
             Featured Projects
           </motion.h2>
-          <motion.div
-            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
-            variants={staggerContainer}
-            initial="hidden"
-            animate="visible"
+          <div
+            className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 sm:gap-8"
           >
             {projectsData.map((project) => (
               <AnimatedProjectCard
@@ -337,7 +334,7 @@ export default function Portfolio() {
                 websiteUrl={project.websiteUrl}
               />
             ))}
-          </motion.div>
+          </div>
         </AnimatedSection>
       </main>
 
@@ -380,57 +377,73 @@ function AnimatedProjectCard({
   websiteUrl?: string;
 }) {
   const ref = useRef(null)
-  const isInView = useInView(ref, { once: true, amount: 0.2 })
+  const isInView = useInView(ref, { amount: 0.05 })
+  
+  const [forceRender, setForceRender] = useState(false)
+  
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setForceRender(true)
+    }, 1000)
+    
+    return () => clearTimeout(timer)
+  }, [])
 
   return (
-    <motion.div ref={ref} variants={fadeIn}>
+    <motion.div 
+      ref={ref} 
+      variants={fadeIn}
+      initial={{ opacity: 0, y: 20 }}
+      animate={(isInView || forceRender) ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+      transition={{ duration: 0.4 }}
+    >
       <Card className="overflow-hidden h-full transition-all duration-300 hover:shadow-lg hover:translate-y-[-5px] bg-background/40 border border-border/50">
         {image && (
-          <div className="p-6 pt-8 flex justify-center bg-background/60">
-            <div className="relative w-32 h-32 overflow-hidden rounded-full border-4 border-primary/10">
+          <div className="p-4 sm:p-6 pt-6 sm:pt-8 flex justify-center bg-background/60">
+            <div className="relative w-24 h-24 sm:w-32 sm:h-32 overflow-hidden rounded-full border-4 border-primary/10">
               <Image 
                 src={image} 
                 alt={title}
                 fill
+                sizes="(max-width: 640px) 96px, 128px"
                 className="object-cover"
+                loading="eager"
+                priority={true}
               />
             </div>
           </div>
         )}
-        <CardContent className="p-6">
-          <div className="flex justify-between items-start mb-4">
-            <h3 className="text-xl font-bold text-foreground">{title}</h3>
+        <CardContent className="p-4 sm:p-6">
+          <div className="flex justify-between items-start mb-3 sm:mb-4">
+            <h3 className="text-lg sm:text-xl font-bold text-foreground">{title}</h3>
             <div className="flex gap-1">
               {websiteUrl && (
-                <Button variant="ghost" size="icon" asChild className="h-8 w-8 hover:bg-primary/10 hover:text-primary">
+                <Button variant="ghost" size="icon" asChild className="h-7 w-7 sm:h-8 sm:w-8 hover:bg-primary/10 hover:text-primary">
                   <Link href={websiteUrl} target="_blank">
-                    <Globe className="h-4 w-4" weight="fill" />
+                    <Globe className="h-3 w-3 sm:h-4 sm:w-4" weight="fill" />
                     <span className="sr-only">Website</span>
                   </Link>
                 </Button>
               )}
               {githubUrl && (
-                <Button variant="ghost" size="icon" asChild className="h-8 w-8 hover:bg-primary/10 hover:text-primary">
+                <Button variant="ghost" size="icon" asChild className="h-7 w-7 sm:h-8 sm:w-8 hover:bg-primary/10 hover:text-primary">
                   <Link href={githubUrl} target="_blank">
-                    <GithubLogo className="h-4 w-4" weight="fill" />
+                    <GithubLogo className="h-3 w-3 sm:h-4 sm:w-4" weight="fill" />
                     <span className="sr-only">GitHub</span>
                   </Link>
                 </Button>
               )}
             </div>
           </div>
-          <p className="text-muted-foreground mb-6 line-clamp-3">{description}</p>
-          <div className="flex flex-wrap gap-2 mt-auto pt-2 border-t border-border/30">
+          <p className="text-xs sm:text-sm text-muted-foreground mb-4 sm:mb-6 line-clamp-3">{description}</p>
+          <div className="flex flex-wrap gap-1 sm:gap-2 mt-auto pt-2 border-t border-border/30">
             {tags.map((tag, index) => (
-              <motion.span
+              <span
                 key={tag}
-                className="inline-flex items-center rounded-full bg-primary/10 px-2.5 py-0.5 text-xs font-semibold text-primary transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2"
-                initial={{ opacity: 0, y: 10 }}
-                animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 10 }}
-                transition={{ duration: 0.3, delay: 0.1 + index * 0.1 }}
+                className="inline-flex items-center rounded-full bg-primary/10 px-1.5 sm:px-2.5 py-0.5 text-[10px] sm:text-xs font-semibold text-primary"
               >
                 {tag}
-              </motion.span>
+              </span>
             ))}
           </div>
         </CardContent>
@@ -470,9 +483,9 @@ function StatsCard({ title, value, description }: { title: string; value: string
   
   return (
    <div>
-   <div className="bg-background/80 p-5 rounded-lg shadow-sm border border-border/50 h-full" ref={ref}>
+   <div className="bg-background/80 p-5 rounded-lg shadow-sm border border-border/50 h-full flex flex-col justify-between" ref={ref}>
       <div className="text-sm text-muted-foreground mb-1">{title}</div>
-      <div className="text-2xl font-bold text-primary">
+      <div className="sm:text-xl font-bold text-primary">
         {isNumeric ? (
           <>
             {count}{value.includes("+") ? "+" : value.includes("%") ? "%" : ""}
