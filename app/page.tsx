@@ -202,7 +202,7 @@ export default function Portfolio() {
                   </Link>
                 </Button>
                 <Button variant="outline" size="icon" asChild className="rounded-full h-8 w-8 sm:h-10 sm:w-10">
-                  <Link href="https://linkedin.com/in/doniczka-undefined-a58189229" target="_blank">
+                  <Link href="https://www.linkedin.com/in/mi%C5%82osz-strza%C5%82kowski-a58189229/" target="_blank">
                     <LinkedinLogo className="h-4 w-4 sm:h-5 sm:w-5" weight="fill" />
                     <span className="sr-only">LinkedIn</span>
                   </Link>
